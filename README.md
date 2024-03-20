@@ -1,7 +1,7 @@
 ### Installation
 
 1.  Create a new repository based on this template by clicking the Use this template button at the top of this page.
-
+--- OR
 2. Clone this repository to your local machine
     ```bash
     git clone https://github.com/Sw0xy/go-rest-api-template.git
