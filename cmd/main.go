@@ -26,7 +26,7 @@ func main() {
 	route.Setup(r, app.DB, time.Second*15)
 
 	srv := &http.Server{
-		Addr:         "localhost:3010",
+		Addr:         os.Getenv("SERVER_ADDRESS"),
 		WriteTimeout: time.Second * 15,
 		ReadTimeout:  time.Second * 15,
 		IdleTimeout:  time.Second * 60,
