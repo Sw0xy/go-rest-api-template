@@ -1,3 +1,7 @@
+### Go REST API Template
+
+This repository provides a clean architecture template for building RESTful APIs using Go (Golang), MongoDB for data storage, and JWT authentication. It follows best practices for structuring your project and separating concerns to ensure maintainability and scalability.
+
 ### Installation
 
 1.  Create a new repository based on this template by clicking the Use this template button at the top of this page.
